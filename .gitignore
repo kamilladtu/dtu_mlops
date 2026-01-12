@@ -185,7 +185,6 @@ tools/to_pdf/**/*.pdf
 # --- M19 / DVC ---
 .dvc/
 .dvc/cache/
-*.dvc
 
 # Generated plots from dataset_statistics
 mnist_images.png
