@@ -194,3 +194,6 @@ test_label_distribution.png
 
 # Raw data (tracked with DVC)
 data/
+
+# Allow DVC metadata folder
+!.dvc
