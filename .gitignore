@@ -181,3 +181,16 @@ tools/to_pdf/**/*.pdf
 
 # vscode
 .vscode/
+
+# --- M19 / DVC ---
+.dvc/
+.dvc/cache/
+*.dvc
+
+# Generated plots from dataset_statistics
+mnist_images.png
+train_label_distribution.png
+test_label_distribution.png
+
+# Raw data (tracked with DVC)
+data/
