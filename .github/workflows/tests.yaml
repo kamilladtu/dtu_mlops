@@ -25,4 +25,5 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest s5_continuous_integration/exercise_files/tests
+          pytest -q
+
